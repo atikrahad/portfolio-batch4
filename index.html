@@ -30,28 +30,42 @@
         color: white;
         transform: scale(1.03);
       }
-      .card{
+      .card {
         text-align: center;
       }
-      .card i{
+      .card i {
         font-size: 40px;
         color: rgb(231, 107, 107);
       }
-      .card h2{
+      .card h2 {
         font-size: 32px;
         color: white;
         font-weight: 700;
       }
-      .card p{
+      .card p {
         color: rgb(232, 232, 232);
       }
-      .card1{
+      .card1 {
         margin: 20px;
       }
-      .card1 h3{
+      .card1 h3 {
         font-size: 24px;
         font-weight: 600;
         color: rgb(205, 204, 204);
+      }
+      input {
+        padding: 10px 12px;
+        background-color: white;
+        color: rgb(40, 46, 52);
+        outline: none;
+        border-radius: 5px;
+      }
+      textarea{
+         padding: 10px 12px;
+        background-color: white;
+        color: rgb(40, 46, 52);
+        outline: none;
+        border-radius: 5px;
       }
     </style>
   </head>
@@ -127,31 +141,68 @@
     </div>
 
     <!-- faq section  -->
-     <div class="main text-slate-300 bg-slate-800 py-20">
-        <h1 class="text-center text-4xl font-semibold">Frequently Asked Questions</h1>
-        <h3 class="text-center">Quis autem velis ets reprehender net etid quiste voluptate.</h3>
-        <div class="flex max-w-6xl mx-auto">
-            <div class="child1">
-                <div class="card1">
-                    <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maxime natus voluptatem officiis hic corrupti!</p>
-                </div>
-                <div class="card1">
-                    <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maxime natus voluptatem officiis hic corrupti!</p>
-                </div>
-            </div>
-            <div class="child2">
-                <div class="card1">
-                    <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maxime natus voluptatem officiis hic corrupti!</p>
-                </div>
-                <div class="card1">
-                    <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae maxime natus voluptatem officiis hic corrupti!</p>
-                </div>
-            </div>
+    <div class="main text-slate-300 bg-slate-800 py-20">
+      <h1 class="text-center text-4xl font-semibold">
+        Frequently Asked Questions
+      </h1>
+      <h3 class="text-center">
+        Quis autem velis ets reprehender net etid quiste voluptate.
+      </h3>
+      <div class="flex max-w-6xl mx-auto">
+        <div class="child1">
+          <div class="card1">
+            <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+              distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Quae maxime natus voluptatem
+              officiis hic corrupti!
+            </p>
+          </div>
+          <div class="card1">
+            <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+              distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Quae maxime natus voluptatem
+              officiis hic corrupti!
+            </p>
+          </div>
         </div>
-     </div>
+        <div class="child2">
+          <div class="card1">
+            <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+              distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Quae maxime natus voluptatem
+              officiis hic corrupti!
+            </p>
+          </div>
+          <div class="card1">
+            <h3>Velit ut tortizi pretium viverra suspendisse?</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde
+              distinctio nulla rem. Odio, porro facilis. Lorem, ipsum dolor sit
+              amet consectetur adipisicing elit. Quae maxime natus voluptatem
+              officiis hic corrupti!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- form section  -->
+    <div class="bg-slate-600 flex flex-col items-center text-white py-20">
+      <h1 class="text-3xl font-semibold">Get In Touch</h1>
+      <p>Please contact me using the form bellow.</p>
+      <form class="w-[500px] my-10 mx-auto flex flex-col gap-4">
+        <input type="text" placeholder="Full name*" />
+        <input type="text" placeholder="Email Address*" />
+        <input type="text" placeholder="Phone Number*" />
+        <textarea name="" id="" placeholder="Your message.."></textarea>
+        <button class="p-2 bg-red-600 rounded-md font-bold">Get In Touch</button>
+      </form>
+    </div>
   </body>
 </html>
